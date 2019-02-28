@@ -5,11 +5,15 @@ h1{
 nav {
     
     font-size: 30px; 
+    display: flex;
+
   }
 
   nav > a {
-      display: flex;
+      position: relative;
+      flex: 1;
       text-align: center;
+      color: white;
   }
   
 
